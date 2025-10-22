@@ -31,4 +31,4 @@ resource "aws_security_group" "allow_all" {
     protocol        = "-1" # for all ports
     cidr_blocks      = ["0.0.0.0/0"]
   }
-}
+} 
